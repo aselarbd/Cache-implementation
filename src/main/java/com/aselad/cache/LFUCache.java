@@ -71,7 +71,7 @@ public class LFUCache implements KVCache {
                 increaseFrequency(key);
                 this.cache.replace(key,item);
             }else{
-                if (this.currentNoOfElements < this.size){
+                if (this.currentNoOfElements < this.size && this.size >0){
                     this.currentNoOfElements ++;
                     increaseFrequency(key);
                     this.cache.put(key,item);
