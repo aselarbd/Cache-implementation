@@ -1,4 +1,4 @@
-package com.aselad.cache;
+package com.aselad.tools.cache;
 
 /**
  * Holds a key-value pair. The value is optional and defaults to null.

@@ -1,10 +1,10 @@
-package com.aselad.cache;
+package com.aselad.tools.cache;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 /**
  * cache.LFUCache class contains implementation of the LFU Cache. In here cache maintain in a hash map and frequency of each

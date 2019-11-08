@@ -1,4 +1,4 @@
-package com.aselad.cache;
+package com.aselad.tools.cache;
 
 import org.junit.jupiter.api.Test;
 
